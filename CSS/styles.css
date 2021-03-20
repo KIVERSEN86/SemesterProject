@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background: #EDEFF0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(to left, #000 0%, #545454 100%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    
+}
+
+h1 {
+    font-family: Tahoma, Verdana, 'Trebuchet MS', Arial;
+    color: #FFFF;
+    font-size: 1em;
+    margin: auto;
+}
+
+.logo {
+    width: 60px;
+    padding: 5px;
+}
