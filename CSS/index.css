@@ -1,7 +1,54 @@
+body {
+  margin: auto;
+}
+
 .front-img {
   max-height: 160px;
 }
 
 .frontpage-img {
   margin: 5px 0px;
+}
+
+.container-absolute {
+  position: relative;
+}
+
+.cta-explore {
+  background: #fdc309;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5em;
+  border: solid 1px #000;
+  border-radius: 10px;
+  padding: 8px 30px;
+  position: absolute;
+  right: 115px;
+  top: 465px;
+}
+
+.frontpage-text {
+  position: absolute;
+  color: #fff;
+  font-family: tangier, sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  left: 22px;
+}
+
+@media (min-width: 1200px) {
+  .frontpage-text {
+    position: absolute;
+    font-size: 6em;
+    left: 22px;
+  }
+
+  .categories-img {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .front-img {
+    max-height: none;
+  }
 }

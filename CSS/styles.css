@@ -13,6 +13,11 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   min-height: 100vh;
+  max-width: 1400px;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -20,7 +25,7 @@ img {
 }
 
 header {
-  background: linear-gradient(to left, #000 0%, #545454 100%);
+  background: linear-gradient(to right, #000, #545454);
 }
 
 header {
@@ -28,13 +33,33 @@ header {
   align-items: center;
 }
 
-.frontpage-text {
-  position: absolute;
+nav {
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.icon-burger {
   color: #fff;
-  font-family: tangier, sans-serif;
-  font-weight: bold;
-  font-size: 2.5em;
-  left: 22px;
+  margin-right: 15px;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: #edeff0;
 }
 
 h2,
@@ -50,23 +75,36 @@ h2,
   padding: 5px;
 }
 
-a {
-  text-decoration: none;
+footer {
+  min-height: 20vh;
+  background: #b4b4b4;
 }
 
-.container-absolute {
-  position: relative;
+.container-footer1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
 }
 
-.cta-explore {
-  background: #fdc309;
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
   color: #000;
+  padding: 5px;
+  font-size: 0.9em;
   font-weight: bold;
-  font-size: 1.5em;
-  border: solid 1px #000;
-  border-radius: 10px;
-  padding: 8px 30px;
-  position: absolute;
-  right: 115px;
-  top: 465px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-footer2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
 }
