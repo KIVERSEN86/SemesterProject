@@ -1,0 +1,36 @@
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container-kid {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.teacher-img {
+  max-width: 49%;
+}
+
+.kids-img {
+  max-height: 432px;
+}
+
+.p-kids {
+  font-size: 1.2em;
+}
+
+.teacher-box {
+  display: flex;
+  justify-content: end;
+}
+
+.flex-kids {
+  display: flex;
+  margin: 15px auto 50px;
+}
+
+main h1 {
+  margin: 10px auto;
+  font-size: 2.4em;
+}

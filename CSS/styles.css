@@ -13,7 +13,6 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   min-height: 100vh;
-  max-width: 1400px;
 }
 
 a {
@@ -31,10 +30,44 @@ header {
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
+
+.h2-header {
+  font-size: 1em;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+h1,
+h2,
+nav,
+.cta-explore {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: rockwell, sans-serif;
+  font-size: 1em;
+}
+
+.logo {
+  width: 60px;
+  padding: 5px;
+}
+
+/* NAV */
 
 nav {
   display: none;
+  position: fixed;
+  background: linear-gradient(to right, #000, #545454);
+  top: 66px;
+  z-index: 1000;
+  right: 0;
 }
 
 #hamburger-menu {
@@ -55,35 +88,39 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: block;
+  padding: 8px 40px;
 }
 
 nav a {
   color: #edeff0;
+  font-size: 1.2em;
 }
 
-h2,
-.cta-explore {
-  font-family: Tahoma, Verdana, "Trebuchet MS", Arial;
-  color: #ffff;
-  font-size: 1em;
-  margin: auto;
+nav a:hover {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.logo {
-  width: 60px;
-  padding: 5px;
+.h2-header {
+  color: #fff;
 }
+
+/* Footer */
 
 footer {
   min-height: 20vh;
   background: #b4b4b4;
 }
 
+footer a {
+  margin: 8px;
+}
+
 .container-footer1 {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 80%;
   margin: auto;
   padding-top: 10px;
 }
@@ -96,7 +133,7 @@ footer {
 footer a {
   color: #000;
   padding: 5px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -104,7 +141,36 @@ footer a {
 .container-footer2 {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 10px;
+}
+
+@media (min-width: 1300px) {
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    font-size: 1.2em;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    background: 0;
+  }
+
+  header label {
+    display: none;
+  }
+
+  .h2-header {
+    font-size: 1.3em;
+    margin-left: 5px;
+  }
+
+  .logo {
+    width: 80px;
+  }
 }
