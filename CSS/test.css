@@ -1,0 +1,10 @@
+.test-container {
+  max-width: 800px;
+  max-height: 345px;
+}
+
+.recommendation-img {
+  background-image: url(../images/kids-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

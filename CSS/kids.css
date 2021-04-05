@@ -1,15 +1,15 @@
 main {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .container-kid {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .teacher-img {
-  max-width: 49%;
+  float: right;
 }
 
 .kids-img {
@@ -20,17 +20,28 @@ main {
   font-size: 1.2em;
 }
 
-.teacher-box {
-  display: flex;
-  justify-content: end;
-}
-
 .flex-kids {
   display: flex;
   margin: 15px auto 50px;
 }
 
 main h1 {
-  margin: 10px auto;
-  font-size: 2.4em;
+  margin: 40px auto 5px auto;
+  font-size: 1.6em;
+}
+
+@media (min-width: 900px) {
+  .teacher-img {
+    max-width: 76%;
+    max-height: 85%;
+  }
+
+  .teacher-box {
+    display: flex;
+    justify-content: end;
+  }
+
+  main h1 {
+    font-size: 2.4em;
+  }
 }

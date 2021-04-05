@@ -1,0 +1,27 @@
+main {
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+.container-aero {
+  display: flex;
+}
+
+.aero-parag {
+  margin-left: 20px;
+}
+
+.aero-parag p {
+  font-size: 1.4em;
+}
+
+.cta-signup {
+  background: #fdc309;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  border: solid 1px #000;
+  border-radius: 10px;
+  padding: 8px 30px;
+}
