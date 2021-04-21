@@ -1,4 +1,51 @@
-.cosmo-container {
-  max-width: 1400px;
+main {
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.cosmo-img {
+  max-height: 450px;
+  object-fit: cover;
+  margin-top: 5px;
+}
+
+.cosmo-h1 {
+  font-size: 1.6em;
+  margin: 40px 0 15px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.binoculars-img {
+  float: right;
+  max-width: 40%;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.binoculars-box {
+  margin: 25px 10px;
+}
+
+.binoculars-box p {
+  font-size: 1.2em;
+}
+
+@media (min-width: 800px) {
+  .binoculars-box p {
+    font-size: 1.4em;
+  }
+
+  .cosmo-h1 {
+    font-size: 2.5em;
+    margin: 60px 0 15px 0;
+  }
+
+  .cosmo-img {
+    margin-bottom: 20px;
+  }
+
+  .binoculars-box {
+    margin: 0 0 60px 0;
+  }
 }

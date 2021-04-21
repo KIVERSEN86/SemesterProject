@@ -1,0 +1,67 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 60px 0 15px 0;
+  font-size: 2.5em;
+}
+
+.exhibition-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 80px 10px;
+}
+
+.exhibition-img {
+  height: 100%;
+}
+
+.cta-exhibition {
+  background: #fdc309;
+  color: #000;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  border: solid 1px #000;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.cta-ex {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.cta-ex a:hover {
+  padding: 10px 20px;
+  background: #e3d802;
+}
+
+.exhibition-grid,
+h1 {
+  animation-name: show-items;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.exhibition-item {
+  border: 2px solid #000;
+}
+
+@keyframes show-items {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
