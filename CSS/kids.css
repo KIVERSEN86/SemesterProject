@@ -17,7 +17,7 @@ main {
 }
 
 .p-kids {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 25px 10px 85px 10px;
 }
 
@@ -47,6 +47,7 @@ main h1 {
 @media (min-width: 600px) {
   .p-kids {
     margin-bottom: 150px;
+    font-size: 1.2em;
   }
 
   .cta-contact {
