@@ -1,0 +1,111 @@
+main {
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+main p {
+  font-size: 1.2em;
+}
+
+hr {
+  border: 1px solid #000;
+}
+
+.explore-width {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.explore-img1 {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.explore-container {
+  padding-bottom: 75px;
+  position: relative;
+}
+
+.flex-explore1,
+.flex-explore2 {
+  flex-direction: column;
+  max-height: 200px;
+  margin-bottom: 100px;
+}
+
+.flex-explore1 p {
+  max-width: 350px;
+}
+
+.flex-explore2 p {
+  max-width: 350px;
+}
+
+.text-box {
+  margin: 30px auto 30px auto;
+}
+
+.cta-learn,
+.cta {
+  background: #fdc309;
+  color: #000;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  border: solid 1px #000;
+  border-radius: 10px;
+  padding: 10px 30px;
+  position: absolute;
+  overflow: hidden;
+}
+
+@media (min-width: 700px) {
+  .cta-learn {
+    top: 210px;
+    left: 85px;
+    padding: 10px 40px;
+  }
+
+  .explore-container > * {
+    flex: 1;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  .explore-container {
+    display: flex;
+    padding-bottom: 75px;
+  }
+}
+
+@media (min-width: 1000px) {
+  main {
+    padding: 0;
+  }
+
+  .cta-learn {
+    top: 250px;
+    left: 100px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+}
