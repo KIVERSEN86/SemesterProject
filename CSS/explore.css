@@ -21,10 +21,6 @@ main p {
   font-size: 1.2em;
 }
 
-hr {
-  border: 1px solid #000;
-}
-
 .explore-width {
   max-width: 1000px;
   margin: auto;

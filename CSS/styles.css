@@ -44,6 +44,7 @@ header {
 
 h1,
 h2,
+h3,
 nav,
 .cta,
 .cta-signup,
@@ -55,6 +56,10 @@ p,
 table,
 form {
   font-family: rockwell, sans-serif;
+}
+
+hr {
+  border: 1px solid #000;
 }
 
 .logo {
@@ -145,7 +150,7 @@ footer {
 
 .container-footer1 {
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: auto;
   padding-top: 10px;
   flex-direction: column;
@@ -174,14 +179,14 @@ footer a:hover {
 
 .container-footer2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 90%;
-  margin: auto;
-  margin-top: 10px;
+  margin: 10px auto auto auto;
 }
 
 footer i {
   font-size: 2.5em;
+  padding: 20px;
 }
 
 @media (min-width: 700px) {
@@ -210,7 +215,7 @@ footer i {
   .container-footer1 {
     justify-content: space-between;
     flex-direction: row;
-    text-align: none;
+    text-align: start;
   }
 }
 
@@ -240,5 +245,9 @@ footer i {
 
   .logo {
     width: 80px;
+  }
+
+  .container-footer1 {
+    max-width: 1200px;
   }
 }

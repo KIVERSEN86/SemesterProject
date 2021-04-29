@@ -76,6 +76,10 @@ label {
   flex-direction: column;
 }
 
+.contact-box {
+  margin: 20px 0;
+}
+
 @media (min-width: 600px) {
   .flex-form {
     display: flex;
