@@ -11,7 +11,7 @@ body {
   background: #edeff0;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0;
+  margin: 0px;
   min-height: 100vh;
 }
 
@@ -124,7 +124,7 @@ nav ul {
 
 nav li {
   display: block;
-  padding: 8px 40px;
+  padding: 8px 30px;
 }
 
 nav a {

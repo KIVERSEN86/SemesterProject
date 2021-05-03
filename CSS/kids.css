@@ -4,20 +4,29 @@ main {
   position: relative;
 }
 
+p {
+  max-width: 300px;
+  font-size: 1em;
+}
+
 .kids-img {
   max-height: 450px;
   object-fit: cover;
 }
 
-.teacher-img {
-  float: right;
-  max-width: 50%;
-  padding-left: 10px;
+.p-kids {
+  margin: 25px 0px 85px 0px;
+  flex: 1;
 }
 
-.p-kids {
-  font-size: 1em;
-  margin: 25px 10px 85px 10px;
+.p-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-box {
+  flex: 1;
 }
 
 main h1 {
@@ -25,6 +34,12 @@ main h1 {
   font-size: 1.4em;
   text-align: center;
   text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.3em;
 }
 
 .cta-contact {
@@ -43,14 +58,15 @@ main h1 {
   margin-top: 5px;
 }
 
-.kids-box2 {
+.kids-box3 {
   margin: 25px 0 75px 0;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .p-kids2 {
   flex: 1;
-  font-size: 1em;
 }
 
 .p-kids2 p {
@@ -63,32 +79,48 @@ main h1 {
 
 .kids2-img {
   max-width: 420px;
+  padding: 5px;
 }
 
 @media (min-width: 600px) {
-  .p-kids {
-    margin-bottom: 150px;
+  p {
+    max-width: 600px;
     font-size: 1.2em;
   }
 
-  .p-kids2 {
-    font-size: 1.2em;
+  .p-kids {
+    margin-bottom: 150px;
+  }
+
+  .p-flex {
+    display: block;
+    align-items: start;
   }
 
   .kids2-img {
     float: right;
   }
 
+  .teacher-img {
+    margin-top: 50px;
+  }
+
   .kids-box2 {
     display: flex;
+  }
+
+  .kids-box3 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
   }
 
   main h1 {
     font-size: 1.6em;
   }
 
-  .cta-contact {
-    left: 300px;
+  h2 {
+    font-size: 1.5em;
   }
 }
 
@@ -98,29 +130,32 @@ main h1 {
     margin: 60px 0 15px 0;
   }
 
+  h2 {
+    text-align: start;
+  }
+
   .kids-img {
     margin-bottom: 20px;
   }
 
   .teacher-img {
-    max-width: 33%;
+    margin-top: 20px;
   }
 
   .p-kids {
-    font-size: 1.3em;
     margin: 0 0 100px 0;
-  }
-
-  .p-kids2 {
-    font-size: 1.3em;
   }
 
   .cta-contact {
     margin-top: 5px;
-    left: 33%;
+    left: 300px;
   }
 
   .kids-box2 {
     padding: 0;
+  }
+
+  .p-kids {
+    flex: 2;
   }
 }
