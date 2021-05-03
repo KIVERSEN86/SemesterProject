@@ -3,21 +3,22 @@ main {
   margin: 60px auto 75px auto;
 }
 
-h1 {
+main h1 {
   font-size: 1.4em;
   text-decoration: underline;
+  text-align: center;
+  margin: 40px 0 15px 0;
 }
 
-h2 {
+main h2 {
   font-size: 1.25em;
-}
-
-.aero-h2 {
-  margin-top: 0px;
+  text-align: center;
+  margin: 30px 0 15px 0;
 }
 
 .aero-parag {
   flex: 3;
+  padding: 10px;
 }
 
 .aero-img {
@@ -42,9 +43,14 @@ p {
 }
 
 @media (min-width: 700px) {
-  h1 {
+  main h1 {
     font-size: 1.6em;
     text-decoration: underline;
+    text-align: start;
+  }
+
+  main h2 {
+    text-align: start;
   }
 
   p {
@@ -59,18 +65,22 @@ p {
     display: flex;
   }
 
+  .aero-parag {
+    padding: 0;
+  }
+
   .aero-img {
     padding: 5px;
   }
 }
 
 @media (min-width: 1000px) {
-  h1 {
+  main h1 {
     font-size: 2.5em;
     text-decoration: underline;
   }
 
-  h2 {
+  main h2 {
     font-size: 1.5em;
   }
 }

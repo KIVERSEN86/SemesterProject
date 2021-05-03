@@ -2,23 +2,28 @@ main {
   max-width: 1200px;
   margin: auto;
   background: #fff;
-  padding: 0 10px;
 }
 
-h1 {
+main h1 {
   text-align: center;
   margin-top: 0;
   padding-top: 20px;
   font-size: 1.4em;
 }
 
-h3 {
-  font-size: 1.3em;
-  text-decoration: underline;
+main h2 {
+  text-align: center;
 }
 
-main p {
-  font-size: 1.2em;
+main h3 {
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  padding: 10px;
 }
 
 .explore-width {
@@ -43,6 +48,12 @@ main p {
   margin-bottom: 100px;
 }
 
+.explore-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .flex-explore1 p {
   max-width: 350px;
 }
@@ -64,9 +75,10 @@ main p {
   text-transform: uppercase;
   border: solid 1px #000;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 5px 10px;
   position: absolute;
   overflow: hidden;
+  left: 30%;
 }
 
 @media (min-width: 700px) {
@@ -81,8 +93,26 @@ main p {
     display: flex;
   }
 
-  h1 {
+  .cta-learn {
+    padding: 10px 30px;
+  }
+
+  .explore-paragraph {
+    align-items: start;
+  }
+
+  main h1 {
     font-size: 1.6em;
+  }
+
+  main h2,
+  main h3 {
+    text-align: start;
+  }
+
+  p {
+    font-size: 1.2em;
+    padding: 0;
   }
 
   .explore-container {
@@ -92,16 +122,12 @@ main p {
 }
 
 @media (min-width: 1000px) {
-  main {
-    padding: 0;
-  }
-
   .cta-learn {
-    top: 250px;
+    top: 275px;
     left: 100px;
   }
 
-  h1 {
+  main h1 {
     font-size: 2.5em;
   }
 }

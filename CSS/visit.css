@@ -24,7 +24,7 @@ main h2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  margin-top: 20px;
+  margin: 20px 0 75px 0;
   gap: 20px;
 }
 
@@ -67,6 +67,7 @@ main h2 {
 
   main h2 {
     font-size: 1.5em;
+    text-align: start;
   }
 
   .visit h1 {

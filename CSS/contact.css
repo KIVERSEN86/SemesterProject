@@ -5,14 +5,14 @@ main {
   min-height: 100vh;
 }
 
-h1 {
+main h1 {
   margin: 0;
   text-align: center;
   padding: 80px 0 80px 0;
   font-size: 1.4em;
 }
 
-h2 {
+main h2 {
   font-size: 1.1em;
 }
 
@@ -61,7 +61,7 @@ label {
 .paragraph-flex {
   margin: 60px auto 0 auto;
   max-width: 1000px;
-  padding: 10px 10px 60px 10px;
+  padding: 10px 10px 75px 10px;
   text-align: center;
 }
 
@@ -85,7 +85,7 @@ label {
     display: flex;
   }
 
-  h1 {
+  main h1 {
     font-size: 1.6em;
   }
 }
@@ -94,14 +94,14 @@ label {
   .paragraph-flex {
     display: flex;
     text-align: start;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px 75px 100px;
   }
 
-  h1 {
+  main h1 {
     font-size: 2.5em;
   }
 
-  h2 {
+  main h2 {
     font-size: 1.25em;
   }
 
