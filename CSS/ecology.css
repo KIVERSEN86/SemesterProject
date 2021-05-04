@@ -1,0 +1,74 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.school-img {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 1.4em;
+  text-decoration: underline;
+  margin: 40px 0 15px 0;
+}
+
+p {
+  max-width: 600px;
+  font-size: 1em;
+}
+
+.ecology-container {
+  margin: 25px 0 75px 0;
+}
+
+.ecology-img {
+  border: solid 2px #000;
+}
+
+.ecology-paragraph {
+  flex: 2;
+  padding: 10px;
+}
+
+.ecology-box {
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  .ecology-container {
+    display: flex;
+  }
+
+  .ecology-img {
+    margin-top: 20px;
+  }
+
+  main h1 {
+    font-size: 1.6em;
+  }
+
+  .ecology-paragraph {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 900px) {
+  main h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .ecology-paragraph {
+    flex: 2;
+  }
+
+  .ecology-box {
+    flex: 1;
+  }
+}

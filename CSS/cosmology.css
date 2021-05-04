@@ -1,7 +1,6 @@
 main {
   max-width: 1200px;
-  margin: 0 auto 75px auto;
-  padding: 0 5px;
+  margin: 0 auto;
 }
 
 p {
@@ -11,6 +10,11 @@ p {
 .cosmo-img {
   max-height: 450px;
   object-fit: cover;
+  border: solid 1px #000;
+}
+
+.binoculars-img {
+  border: solid 2px #000;
 }
 
 main h1 {
@@ -24,6 +28,10 @@ main h1 {
   margin: 25px 0 75px 0;
 }
 
+.cosmo-paragraph {
+  padding: 10px;
+}
+
 @media (min-width: 600px) {
   .cosmo-container {
     display: flex;
@@ -35,6 +43,7 @@ main h1 {
 
   .cosmo-paragraph {
     flex: 2;
+    padding: 0;
   }
 
   .binoculars-box {

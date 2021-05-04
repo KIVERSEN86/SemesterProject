@@ -1,0 +1,73 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dino-img {
+  max-height: 450px;
+}
+
+.skeleton-img {
+  margin-top: 20px;
+  border: solid 2px #000;
+}
+
+main h1 {
+  font-size: 1.4em;
+  text-align: center;
+  margin: 40px 0 15px 0;
+}
+
+p {
+  font-size: 1em;
+  max-width: 600px;
+}
+
+.evolution-container {
+  margin: 25px 0 75px 0;
+}
+
+.evolution-paragraph {
+  flex: 2;
+  padding: 10px;
+}
+
+.evolution-box {
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  .evolution-container {
+    display: flex;
+  }
+
+  .skeleton-img {
+    margin-top: 20px;
+  }
+
+  main h1 {
+    font-size: 1.6em;
+  }
+
+  .evolution-paragraph {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 900px) {
+  main h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .evolution-paragraph {
+    flex: 2;
+  }
+
+  .evolution-box {
+    flex: 1;
+  }
+}
