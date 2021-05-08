@@ -1,7 +1,5 @@
 main {
-  max-width: 1200px;
-  margin: 0 auto;
-  background: #fff;
+  background: var(--background-color);
   min-height: 100vh;
 }
 
@@ -53,11 +51,11 @@ label {
 
 .cta-submit {
   background: var(--color-cta);
-  color: var(--footer-cta);
+  color: var(--footer-cta-border);
   font-weight: bold;
   font-size: 1em;
   text-transform: uppercase;
-  border: solid 1px #000;
+  border: solid 1px var(--footer-cta-border);
   border-radius: 10px;
 }
 

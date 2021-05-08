@@ -1,4 +1,5 @@
 :root {
   --color-cta: #fdc309;
-  --footer-cta: #000;
+  --footer-cta-border: #000;
+  --background-color: #fff;
 }

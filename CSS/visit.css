@@ -1,8 +1,3 @@
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 main h2 {
   font-size: 1.2em;
   text-align: center;
@@ -31,7 +26,7 @@ main h2 {
 }
 
 .section-grid {
-  background: #fff;
+  background: var(--background-color);
   display: grid;
   justify-content: space-evenly;
 }

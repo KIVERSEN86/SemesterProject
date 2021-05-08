@@ -1,16 +1,10 @@
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .cosmo-img {
   max-height: 450px;
   object-fit: cover;
-  border: solid 1px #000;
 }
 
 .binoculars-img {
-  border: solid 2px #000;
+  border: solid 2px var(--footer-cta-border);
 }
 
 h1 {

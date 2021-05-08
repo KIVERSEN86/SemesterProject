@@ -1,15 +1,10 @@
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .dino-img {
   max-height: 450px;
 }
 
 .skeleton-img {
   margin-top: 20px;
-  border: solid 2px #000;
+  border: solid 2px var(--footer-cta-border);
 }
 
 h1 {

@@ -1,8 +1,3 @@
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .school-img {
   max-height: 450px;
   object-fit: cover;
@@ -22,7 +17,7 @@ p {
 }
 
 .ecology-img {
-  border: solid 2px #000;
+  border: solid 2px var(--footer-cta-border);
 }
 
 .ecology-paragraph {
