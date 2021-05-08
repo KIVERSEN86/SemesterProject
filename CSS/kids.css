@@ -4,11 +4,6 @@ main {
   position: relative;
 }
 
-p {
-  font-size: 1em;
-  padding: 10px;
-}
-
 .kids-img {
   max-height: 450px;
   object-fit: cover;
@@ -29,29 +24,18 @@ p {
   flex: 1;
 }
 
-main h1 {
-  margin: 40px 0 15px 0;
-  font-size: 1.4em;
+h1 {
   text-align: center;
   text-decoration: underline;
 }
 
-main h2 {
+h2 {
   text-align: center;
   text-decoration: underline;
   font-size: 1.3em;
 }
 
 .cta-contact {
-  background: #fdc309;
-  color: #000;
-  font-weight: bold;
-  font-size: 1em;
-  text-transform: uppercase;
-  border: solid 1px #000;
-  border-radius: 10px;
-  padding: 5px 10px;
-  position: absolute;
   left: 180px;
   transform: translateX(-50%);
   overflow: hidden;
@@ -85,7 +69,6 @@ main h2 {
 @media (min-width: 700px) {
   p {
     max-width: 600px;
-    font-size: 1.2em;
   }
 
   .p-kids {
@@ -102,7 +85,7 @@ main h2 {
   }
 
   .teacher-img {
-    margin-top: 50px;
+    margin-top: 45px;
   }
 
   .kids-box2 {
@@ -115,26 +98,13 @@ main h2 {
     align-items: start;
   }
 
-  main h1 {
-    font-size: 1.6em;
-  }
-
-  main h2 {
+  h2 {
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 900px) {
-  main h1 {
-    font-size: 2.5em;
-    margin: 60px 0 15px 0;
-  }
-
-  p {
-    padding: 0px;
-  }
-
-  main h2 {
+  h2 {
     text-align: start;
   }
 

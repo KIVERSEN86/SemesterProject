@@ -12,14 +12,11 @@ main {
   border: solid 2px #000;
 }
 
-main h1 {
-  font-size: 1.4em;
+h1 {
   text-align: center;
-  margin: 40px 0 15px 0;
 }
 
 p {
-  font-size: 1em;
   max-width: 600px;
 }
 
@@ -29,7 +26,6 @@ p {
 
 .evolution-paragraph {
   flex: 2;
-  padding: 10px;
 }
 
 .evolution-box {
@@ -44,25 +40,9 @@ p {
   .skeleton-img {
     margin-top: 20px;
   }
-
-  main h1 {
-    font-size: 1.6em;
-  }
-
-  .evolution-paragraph {
-    padding: 0px;
-  }
 }
 
 @media (min-width: 900px) {
-  main h1 {
-    font-size: 2.5em;
-  }
-
-  p {
-    font-size: 1.2em;
-  }
-
   .evolution-paragraph {
     flex: 2;
   }

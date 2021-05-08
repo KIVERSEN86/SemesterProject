@@ -3,10 +3,6 @@ main {
   margin: 0 auto;
 }
 
-p {
-  font-size: 1em;
-}
-
 .cosmo-img {
   max-height: 450px;
   object-fit: cover;
@@ -17,9 +13,7 @@ p {
   border: solid 2px #000;
 }
 
-main h1 {
-  margin: 40px 0 15px 0;
-  font-size: 1.4em;
+h1 {
   text-align: center;
   text-decoration: underline;
 }
@@ -28,22 +22,13 @@ main h1 {
   margin: 25px 0 75px 0;
 }
 
-.cosmo-paragraph {
-  padding: 10px;
-}
-
 @media (min-width: 600px) {
   .cosmo-container {
     display: flex;
   }
 
-  main h1 {
-    font-size: 1.6em;
-  }
-
   .cosmo-paragraph {
     flex: 2;
-    padding: 0;
   }
 
   .binoculars-box {
@@ -52,15 +37,5 @@ main h1 {
 
   p {
     max-width: 600px;
-  }
-}
-
-@media (min-width: 900px) {
-  p {
-    font-size: 1.2em;
-  }
-
-  main h1 {
-    font-size: 2.5em;
   }
 }

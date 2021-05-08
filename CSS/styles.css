@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+
 html {
   box-sizing: border-box;
 }
@@ -13,6 +15,16 @@ body {
   background-repeat: no-repeat;
   margin: 0px;
   min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.4em;
+  margin: 40px 0 15px 0;
+}
+
+.p-media {
+  font-size: 1em;
+  padding: 0 10px;
 }
 
 a {
@@ -68,6 +80,18 @@ hr {
   padding: 5px;
 }
 
+.cta-learn {
+  background: var(--color-cta);
+  color: var(--footer-cta);
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  border: solid 1px #000;
+  border-radius: 10px;
+  padding: 5px 10px;
+  position: absolute;
+}
+
 .cta:before {
   content: "";
   padding: 10px;
@@ -83,16 +107,6 @@ hr {
 
 .cta:hover:before {
   left: 115%;
-}
-
-.clear {
-  clear: right;
-}
-
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: table;
 }
 
 /* NAV */
@@ -166,7 +180,7 @@ footer {
 }
 
 footer a {
-  color: #000;
+  color: var(--footer-cta);
   margin: 2px;
   padding: 5px;
   font-size: 0.9em;
@@ -196,6 +210,10 @@ footer i {
     font-size: 1.2em;
   }
 
+  h1 {
+    font-size: 1.6em;
+  }
+
   footer a {
     margin: 8px;
     font-size: 1em;
@@ -218,6 +236,17 @@ footer i {
     justify-content: space-between;
     flex-direction: row;
     text-align: start;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .p-media {
+    font-size: 1.2em;
+    padding: 0;
   }
 }
 

@@ -3,11 +3,9 @@ body {
 }
 
 .welcome {
-  background-image: url(../images/frontpage-img.jpg);
+  background: url(../images/frontpage-img.jpg) center no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
   min-height: 80vh;
-  background-position: center;
   position: relative;
 }
 
@@ -17,8 +15,8 @@ body {
 }
 
 .cta-explore {
-  background: #fdc309;
-  color: #000;
+  background: var(--color-cta);
+  color: var(--footer-cta);
   font-weight: bold;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -33,15 +31,6 @@ body {
 }
 
 .cta-learn {
-  background: #fdc309;
-  color: #000;
-  font-weight: bold;
-  font-size: 1em;
-  text-transform: uppercase;
-  border: solid 1px #000;
-  border-radius: 10px;
-  padding: 5px 10px;
-  position: absolute;
   transform: translateX(-50%);
   overflow: hidden;
 }

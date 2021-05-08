@@ -3,25 +3,11 @@ main {
   max-width: 1200px;
 }
 
-main h1 {
-  font-size: 1.4em;
+h1 {
   text-align: center;
-  margin: 40px 0 15px 0;
 }
 
 .submit-img {
   margin: 20px 0 75px 0;
   padding: 0 5px;
-}
-
-@media (min-width: 700px) {
-  main h1 {
-    font-size: 1.6em;
-  }
-}
-
-@media (min-width: 900px) {
-  main h1 {
-    font-size: 2.5em;
-  }
 }

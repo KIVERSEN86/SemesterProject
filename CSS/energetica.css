@@ -1,19 +1,15 @@
 main {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-main h1 {
-  font-size: 1.4em;
+h1 {
   text-decoration: underline;
-  margin: 40px 0 15px 0;
   text-align: center;
 }
 
-main p {
-  font-size: 1em;
+p {
   max-width: 600px;
-  padding: 10px;
 }
 
 .energetica-box1 {
@@ -46,14 +42,9 @@ main p {
     display: flex;
   }
 
-  main h1 {
-    font-size: 1.6em;
+  h1 {
     text-align: start;
-  }
-
-  main p {
-    font-size: 1.2em;
-    padding: 0;
+    padding-left: 10px;
   }
 
   .energy-img {
@@ -63,14 +54,14 @@ main p {
 }
 
 @media (min-width: 1000px) {
-  main h1 {
-    font-size: 2.5em;
-    margin: 60px 0 40px 0;
-  }
-
   .energetica-box1 {
     max-width: 700px;
     flex: 2;
+  }
+
+  h1 {
+    margin: 60px 0 40px 0;
+    padding: 0;
   }
 
   .energetica-box2 {

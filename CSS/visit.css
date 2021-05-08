@@ -14,8 +14,6 @@ main h2 {
 }
 
 .visit-h1 {
-  font-size: 1.4;
-  margin: 60px 0 15px 0;
   text-align: center;
   text-decoration: underline;
 }
@@ -69,10 +67,6 @@ main h2 {
     font-size: 1.5em;
     text-align: start;
   }
-
-  .visit h1 {
-    font-size: 1.6em;
-  }
 }
 
 @media (min-width: 800px) {
@@ -80,10 +74,6 @@ main h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 100px;
-  }
-
-  .visit-h1 {
-    font-size: 2.5em;
   }
 
   .visit-grid p {

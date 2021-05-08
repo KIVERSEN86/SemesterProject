@@ -5,15 +5,18 @@ main {
   min-height: 100vh;
 }
 
-main h1 {
+h1 {
   margin: 0;
   text-align: center;
   padding: 80px 0 80px 0;
-  font-size: 1.4em;
 }
 
-main h2 {
+h2 {
   font-size: 1.1em;
+}
+
+.contact-box a {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-form {
@@ -49,8 +52,8 @@ label {
 }
 
 .cta-submit {
-  background: #fdc309;
-  color: #000;
+  background: var(--color-cta);
+  color: var(--footer-cta);
   font-weight: bold;
   font-size: 1em;
   text-transform: uppercase;
@@ -84,10 +87,6 @@ label {
   .flex-form {
     display: flex;
   }
-
-  main h1 {
-    font-size: 1.6em;
-  }
 }
 
 @media (min-width: 800px) {
@@ -97,11 +96,7 @@ label {
     padding: 50px 100px 75px 100px;
   }
 
-  main h1 {
-    font-size: 2.5em;
-  }
-
-  main h2 {
+  h2 {
     font-size: 1.25em;
   }
 
