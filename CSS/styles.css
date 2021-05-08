@@ -125,6 +125,12 @@ nav {
   right: 0;
 }
 
+.current {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
 #hamburger-menu {
   display: none;
 }

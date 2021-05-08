@@ -18,9 +18,7 @@ h1 {
 }
 
 p {
-  font-size: 1em;
   max-width: 600px;
-  padding: 10px;
 }
 
 .contact-link {
@@ -34,13 +32,9 @@ p {
     display: flex;
   }
 
-  p {
-    font-size: 1.2em;
-    padding: 0;
-  }
-
   h1 {
     text-align: start;
+    padding-left: 10px;
   }
 
   .corona-img1 {
@@ -55,5 +49,9 @@ p {
 
   .covid-img {
     flex: 2;
+  }
+
+  h1 {
+    padding: 0;
   }
 }
