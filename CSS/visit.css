@@ -70,8 +70,4 @@ main h2 {
     grid-template-rows: auto auto auto;
     gap: 100px;
   }
-
-  .visit-grid p {
-    font-size: 1.2em;
-  }
 }

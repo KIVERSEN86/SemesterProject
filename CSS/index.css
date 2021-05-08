@@ -13,6 +13,20 @@ main {
   position: relative;
 }
 
+.frontpage-text {
+  color: var(--background-color);
+  font-family: tangier, sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.rec-p p {
+  text-align: start;
+}
+
 .container-width {
   max-width: 1200px;
   margin: 0 auto;
@@ -37,16 +51,6 @@ main {
 .cta-learn {
   transform: translateX(-50%);
   overflow: hidden;
-}
-
-.frontpage-text {
-  color: var(--background-color);
-  font-family: tangier, sans-serif;
-  font-weight: bold;
-  font-size: 3.5em;
-  margin: auto;
-  padding-top: 10px;
-  text-align: center;
 }
 
 .container-rec2,
