@@ -3,11 +3,6 @@
   object-fit: cover;
 }
 
-h1 {
-  text-align: center;
-  text-decoration: underline;
-}
-
 p {
   max-width: 600px;
 }

@@ -6,6 +6,10 @@ main {
   max-width: none;
 }
 
+h1 {
+  text-decoration: none;
+}
+
 .welcome {
   background: url(../images/frontpage-img.jpg) center no-repeat;
   background-size: cover;

@@ -42,6 +42,8 @@ form {
 h1 {
   font-size: 1.4em;
   margin: 40px 0 15px 0;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .p-media {
@@ -155,7 +157,7 @@ nav li {
 
 nav a {
   color: #edeff0;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 nav a:hover {

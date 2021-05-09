@@ -7,11 +7,6 @@
   border: solid 2px var(--footer-cta-border);
 }
 
-h1 {
-  text-align: center;
-  text-decoration: underline;
-}
-
 .cosmo-container {
   margin: 25px 0 75px 0;
 }

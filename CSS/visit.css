@@ -8,11 +8,6 @@ main h2 {
   object-fit: cover;
 }
 
-.visit-h1 {
-  text-align: center;
-  text-decoration: underline;
-}
-
 .visit-grid {
   display: grid;
   grid-template-columns: 1fr;

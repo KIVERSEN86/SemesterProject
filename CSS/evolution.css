@@ -7,10 +7,6 @@
   border: solid 2px var(--footer-cta-border);
 }
 
-h1 {
-  text-align: center;
-}
-
 p {
   max-width: 600px;
 }
